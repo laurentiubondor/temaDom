@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    margin: 50px;
+    border: 1px solid black;
+    width: 750px;
+    height: 380px;
+}
+
+.poza {
+    object-fit: fill;
+    margin: 30;
+    width: 300;
+}
+
+section {
+    margin-top: 30;
+    margin-left: 60;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#name {
+    width: 350;
+    height: 30;
+}
+
+#lastname {
+    width: 350;
+    height: 30;
+}
+
+
+}
+.genul {
+    text-align: center;
+}
+#first-radio {
+    margin-left: 50;
+}
+#last-radio {
+    margin-left: 50;
+}
+#text-area {
+    width: 350;
+    height: 150;
+}
+#button {
+    width: 70;
+    height: 30;
+    float: right;
+}
+.invalid {
+    border: 3px solid red;
+}
+#mydiv {
+    margin: 30;
+    margin-left: 60;
+}
