@@ -2,7 +2,7 @@ const name = document.getElementById("name");
 const lastname = document.getElementById("lastname");
 const form = document.getElementById("text-area");
 const button = document.querySelector('#button');
-
+const genul = document.getElementsByName("gender")
 
 
 button.addEventListener("click", sendForm);
@@ -53,7 +53,8 @@ function removeRed2() {
 
 function genulmf() {
 
-    const genul = document.getElementsByName("gender")
-    console.log(genul.value)
-
+    for (var i = 0; i < genul.length; i++) {
+        if (genul[i].checked)
+            console.log(genul[i].value)
+    }
 }
